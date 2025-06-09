@@ -1,4 +1,4 @@
-/* === Testimonials Section === */
+/* === Root === */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -6,61 +6,9 @@
   text-align: center;
 }
 
-.testimonials-section {
-  padding: 3rem 0;
-  border-top: 1px solid #ccc;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.testimonial-entry {
-  margin-bottom: 2rem;
-  line-height: 1.6;
-}
-
-.testimonial-quote,
-.testimonial-author,
-.testimonial-stars {
-  color: inherit;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.testimonial-stars {
-  font-size: 1.2rem;
-  color: #fcd34d; /* gold stars */
-}
-
-/* === Light Mode === */
-.light-mode .testimonials-section {
-  background-color: #f8f9fa;
-}
-
-.light-mode .testimonial-quote,
-.light-mode .testimonial-author {
-  color: #212529;
-}
-
-/* === Dark Mode === */
-.dark-mode .testimonials-section {
-  background-color: #1a1a1a;
-}
-
-.dark-mode .testimonial-quote,
-.dark-mode .testimonial-author {
-  color: #f1f1f1;
-}
-
-/* Example for builder cards or boxes */
-.builder-box-white,
-.workstation-card {
-  background-color: var(--box-bg);
-  color: var(--text-color);
-  transition: background-color 0.3s ease;
-}
-
-/* Theme-specific variables */
+/* === Dark/Light Mode Base === */
 .dark-mode {
-   background-color:#1c1c1c;
+  background-color: #1c1c1c;
   --box-bg: #1f1f1f;
   --text-color: #f0f0f0;
 }
@@ -86,3 +34,112 @@
   color: #212121;
 }
 
+/* === Hero Section === */
+.light-mode .intro-section {
+  background-color: #f8f9fa;
+  color: #212121;
+}
+
+.light-mode .intro-section h1,
+.light-mode .intro-section p {
+  color: #212121;
+}
+
+.dark-mode .intro-section {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.dark-mode .intro-section h1,
+.dark-mode .intro-section p {
+  color: #f0f0f0;
+}
+
+/* === Component Highlights Section === */
+.light-mode .component-highlights {
+  background-color: #f8f9fa;
+  color: #212121;
+}
+
+.light-mode .component-highlights h3,
+.light-mode .component-highlights p {
+  color: #212121;
+}
+
+.dark-mode .component-highlights {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.dark-mode .component-highlights h3,
+.dark-mode .component-highlights p {
+  color: #f0f0f0;
+}
+
+/* === Workstations Section === */
+.light-mode .workstations-section {
+  background-color: #f8f9fa;
+  color: #212121;
+}
+
+.light-mode .workstations-section h2,
+.light-mode .workstations-section h4,
+.light-mode .workstations-section p {
+  color: #212121;
+}
+
+.dark-mode .workstations-section {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.dark-mode .workstations-section h2,
+.dark-mode .workstations-section h4,
+.dark-mode .workstations-section p {
+  color: #f0f0f0;
+}
+
+/* === Testimonials Section === */
+.testimonials-section {
+  padding: 3rem 0;
+  border-top: 1px solid #ccc;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.testimonial-entry {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.testimonial-quote,
+.testimonial-author,
+.testimonial-stars {
+  color: inherit;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.testimonial-stars {
+  font-size: 1.2rem;
+  color: #fcd34d; /* gold stars */
+}
+
+.light-mode .testimonials-section {
+  background-color: #f8f9fa;
+}
+
+.light-mode .testimonials-section h2,
+.light-mode .testimonial-quote,
+.light-mode .testimonial-author {
+  color: #212121;
+}
+
+.dark-mode .testimonials-section {
+  background-color: #1a1a1a;
+}
+
+.dark-mode .testimonials-section h2,
+.dark-mode .testimonial-quote,
+.dark-mode .testimonial-author {
+  color: #f0f0f0;
+}

@@ -50,7 +50,7 @@ const HomePage = () => {
       </div>
 
       {/* Component Highlights */}
-      <Container className="mt-5">
+      <Container className="mt-5 component-highlights">
         <Row>
           <Col md={4} className="text-center mb-4">
             <h3>Powerful CPUs</h3>

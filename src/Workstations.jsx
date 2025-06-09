@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button, Badge } from "react-bootstrap";
 import { Link } from "react-router-dom"; // Add this line
+import Header from "./Header"
 import Footer from "./Footer";
 import "./App.css";
 
@@ -8,17 +9,19 @@ const workstations = [
   {
     purchaseId: "p3-tiny",
     name: "Lenovo ThinkStation P3 Tiny",
-    image: "/images/lenovo-thinkstation-p3-tiny.png", 
+    image: `${import.meta.env.BASE_URL}images/lenovo-thinkstation-p3-tiny.png`,
     specs: ["Intel Core i7-13700T", "32GB DDR5", "1TB SSD", "NVIDIA T1000"],
-    description: "Compact powerhouse designed for professionals who need workstation performance in a tiny form factor.",
+    description:
+      "Compact powerhouse designed for professionals who need workstation performance in a tiny form factor.",
     price: "$1,299.00 CAD",
   },
   {
     purchaseId: "p3-ultra",
     name: "Lenovo ThinkStation P3 Ultra SFF",
-    image: "/images/gw54zcu14k0mpf4klaj95ue8ujapmn835349.avif", 
+    image: `${import.meta.env.BASE_URL}images/gw54zcu14k0mpf4klaj95ue8ujapmn835349.avif`,
     specs: ["Intel Core i9-13900", "64GB DDR5", "2TB SSD", "NVIDIA RTX A2000"],
-    description: "A versatile, small form factor workstation engineered for CAD, rendering, and high-performance computing.",
+    description:
+      "A versatile, small form factor workstation engineered for CAD, rendering, and high-performance computing.",
     price: "$2,199.00 CAD",
   },
 ];

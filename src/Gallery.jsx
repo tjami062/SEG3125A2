@@ -7,32 +7,32 @@ import Footer from "./Footer";
 
 const galleryImages = [
   {
-    src: "/images/FI_Antec-C5-ARGB-RTX-4070-SUPER.jpg",
+    src: `${import.meta.env.BASE_URL}images/FI_Antec-C5-ARGB-RTX-4070-SUPER.jpg`,
     alt: "Antec C5 ARGB Build",
     specs: "Intel i7 · RTX 4070 SUPER · 32GB DDR5 · 1TB SSD",
   },
   {
-    src: "/images/FI_APNX-C1-ASUS-9070-XT.jpg",
+    src: `${import.meta.env.BASE_URL}images/FI_APNX-C1-ASUS-9070-XT.jpg`,
     alt: "APNX C1 with ASUS 7900 XT",
     specs: "Ryzen 9 · RX 7900 XT · 64GB RAM · 2TB SSD",
   },
   {
-    src: "/images/FI_APNX-V1-4070-Ti-SUPER.jpg",
+    src: `${import.meta.env.BASE_URL}images/FI_APNX-V1-4070-Ti-SUPER.jpg`,
     alt: "APNX V1 4070 Ti Super",
     specs: "Intel i9 · RTX 4070 Ti SUPER · 64GB RAM · 2TB NVMe",
   },
   {
-    src: "/images/FI_HAVN-HS420-4080-SUPER.jpg",
+    src: `${import.meta.env.BASE_URL}images/FI_HAVN-HS420-4080-SUPER.jpg`,
     alt: "HAVN HS420 4080 SUPER",
     specs: "Ryzen 7 · RTX 4080 SUPER · 32GB RAM · 1TB SSD",
   },
   {
-    src: "/images/FI_Sky-Two-GTX-Prime-4070-SUPER.jpg",
+    src: `${import.meta.env.BASE_URL}images/FI_Sky-Two-GTX-Prime-4070-SUPER.jpg`,
     alt: "Sky Two Prime 4070 SUPER",
     specs: "Intel i5 · RTX 4070 SUPER · 16GB RAM · 1TB SSD",
   },
   {
-    src: "/images/FI_Thermaltake-x-4080-SUPER-Sim-Rig-Build.jpg",
+    src: `${import.meta.env.BASE_URL}images/FI_Thermaltake-x-4080-SUPER-Sim-Rig-Build.jpg`,
     alt: "Thermaltake 4080 Sim Rig",
     specs: "Intel i9 · RTX 4080 SUPER · Sim Ready · 2TB NVMe",
   },

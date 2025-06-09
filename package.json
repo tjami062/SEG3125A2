@@ -1,6 +1,7 @@
 {
   "name": "my-react-app",
   "private": true,
+  "homepage": "https://tjami062.github.io/SEG3125A2",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -1,6 +1,6 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import { useTheme } from "./ThemeContext"; // <- Make sure this is imported
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useTheme } from "./ThemeContext";
 import HomePage from "./HomePage";
 import SystemBuilder from "./SystemBuilder";
 import Workstations from "./Workstations";
@@ -12,13 +12,15 @@ function App() {
 
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/builder" element={<SystemBuilder />} />
-        <Route path="/workstations" element={<Workstations />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/purchase/:id" element={<Purchase />} />
-      </Routes>
+      <BrowserRouter basename="/SEG3125A2">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/builder" element={<SystemBuilder />} />
+          <Route path="/workstations" element={<Workstations />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/purchase/:id" element={<Purchase />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

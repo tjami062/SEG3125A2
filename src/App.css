@@ -1,0 +1,88 @@
+/* === Testimonials Section === */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonials-section {
+  padding: 3rem 0;
+  border-top: 1px solid #ccc;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.testimonial-entry {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.testimonial-quote,
+.testimonial-author,
+.testimonial-stars {
+  color: inherit;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.testimonial-stars {
+  font-size: 1.2rem;
+  color: #fcd34d; /* gold stars */
+}
+
+/* === Light Mode === */
+.light-mode .testimonials-section {
+  background-color: #f8f9fa;
+}
+
+.light-mode .testimonial-quote,
+.light-mode .testimonial-author {
+  color: #212529;
+}
+
+/* === Dark Mode === */
+.dark-mode .testimonials-section {
+  background-color: #1a1a1a;
+}
+
+.dark-mode .testimonial-quote,
+.dark-mode .testimonial-author {
+  color: #f1f1f1;
+}
+
+/* Example for builder cards or boxes */
+.builder-box-white,
+.workstation-card {
+  background-color: var(--box-bg);
+  color: var(--text-color);
+  transition: background-color 0.3s ease;
+}
+
+/* Theme-specific variables */
+.dark-mode {
+   background-color:#1c1c1c;
+  --box-bg: #1f1f1f;
+  --text-color: #f0f0f0;
+}
+
+.light-mode {
+  --box-bg: #ffffff;
+  --text-color: #212121;
+}
+
+.dark-mode .btn-outline-dark {
+  background-color: #333;
+  color: #f0f0f0;
+  border-color: #666;
+}
+
+.dark-mode .table {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.light-mode .table {
+  background-color: #fff;
+  color: #212121;
+}
+

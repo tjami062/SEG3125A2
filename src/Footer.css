@@ -1,0 +1,27 @@
+.footer {
+  background-color: #111;
+  font-size: 0.95rem;
+  border-top: 1px solid #2e2e2e;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer-icons a {
+  color: #ccc;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  transition: color 0.2s ease;
+}
+
+.footer-icons a:hover {
+  color: #fff;
+}

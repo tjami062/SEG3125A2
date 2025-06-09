@@ -1,0 +1,9 @@
+/* Optional styling for consistency */
+body {
+  background-color: #ffffff;
+}
+
+img {
+  max-height: 400px;
+  object-fit: cover;
+}

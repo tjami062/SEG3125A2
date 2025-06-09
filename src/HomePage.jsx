@@ -29,7 +29,7 @@ const HomePage = () => {
           <Row className="justify-content-center gy-4">
             <Col md={6}>
               <Image
-                src="/images/FI_APNX-V1-4070-Ti-SUPER.jpg"
+                src={`${import.meta.env.BASE_URL}images/FI_APNX-V1-4070-Ti-SUPER.jpg`}
                 alt="Purple RGB Build"
                 fluid
                 rounded
@@ -38,7 +38,7 @@ const HomePage = () => {
             </Col>
             <Col md={6}>
               <Image
-                src="/images/FI_Antec-C5-ARGB-RTX-4070-SUPER.jpg"
+                src={`${import.meta.env.BASE_URL}images/FI_Antec-C5-ARGB-RTX-4070-SUPER.jpg`}
                 alt="White and Blue RGB Build"
                 fluid
                 rounded
@@ -75,7 +75,7 @@ const HomePage = () => {
           <Row className="align-items-center mb-5">
             <Col md={6} className="mb-3 mb-md-0">
               <img
-                src="/images/lenovo-thinkstation-p3-tiny.png"
+                src={`${import.meta.env.BASE_URL}images/lenovo-thinkstation-p3-tiny.png`}
                 alt="Creator Workstation"
                 className="img-fluid workstation-img"
               />
@@ -92,7 +92,7 @@ const HomePage = () => {
           <Row className="align-items-center flex-md-row-reverse">
             <Col md={6} className="mb-3 mb-md-0">
               <img
-                src="/images/gw54zcu14k0mpf4klaj95ue8ujapmn835349.avif"
+                src={`${import.meta.env.BASE_URL}images/gw54zcu14k0mpf4klaj95ue8ujapmn835349.avif`}
                 alt="Engineering Workstation"
                 className="img-fluid workstation-img"
               />

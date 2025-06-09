@@ -12,15 +12,14 @@ function App() {
 
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
-      <BrowserRouter basename="/SEG3125A2">
-        <Routes>
+       <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/builder" element={<SystemBuilder />} />
           <Route path="/workstations" element={<Workstations />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/purchase/:id" element={<Purchase />} />
         </Routes>
-      </BrowserRouter>
+      
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button, Badge } from "react-bootstrap";
 import { Link } from "react-router-dom"; // Add this line
-import Header from "./Header";
 import Footer from "./Footer";
 import "./App.css";
 
